@@ -7,7 +7,7 @@ In simple terms that app uses the loaction of the device accessing it (i.e. a mo
 
 # How can I use this to make a new app?
 
-This is onlly the beginning. Want to make an app for French butterflies, no problem!
+This is only the beginning. Want to make an app for French butterflies, no problem!
 
 ## Changing the taxanomic group
 
@@ -15,7 +15,7 @@ The taxaonomy the app is focussed is set in the internal script `getGBIFdata.r` 
 
 ## Changing the radius
 
-Easy, edit the script `createWKT.r` on line 1, the radius is set in meters, and hte current value is 5000 (i.e. 5km)
+Easy, edit the script `createWKT.r` on line 1, the radius is set in meters, and the current value is 5000 (i.e. 5km)
 
 ## Change the language
 
