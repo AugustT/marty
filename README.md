@@ -1,6 +1,9 @@
 # marty
 Making citizen science data work for citizen scientists
 
+![appScreenshots](https://github.com/AugustT/marty/raw/master/App/screenshots.jpg "App screenshots")
+
+
 This R-shiny web app was designed for the 2018 Ebbe Neilson prize by Tom August. Copying and reuse of the code is strongly encouraged.
 
 In simple terms that app uses the loaction of the device accessing it (i.e. a mobile phone), to query GBIF to find out what species are commonly found in that area. These are tehn displayed along side their English names and images, also source from GBIF.
