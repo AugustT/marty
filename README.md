@@ -6,15 +6,13 @@ Making citizen science data work for citizen scientists
 
 This R-shiny web app was designed for the 2018 Ebbe Neilson prize by Tom August. Copying and reuse of the code is strongly encouraged.
 
-In simple terms that app uses the loaction of the device accessing it (i.e. a mobile phone), to query GBIF to find out what species are commonly found in that area. These are tehn displayed along side their English names and images, also source from GBIF.
-
-# How can I use this to make a new app?
+In simple terms that app uses the loaction of the device accessing it (i.e. a mobile phone), to query GBIF to find out what species are commonly found in that area. These are then displayed along side their English names and images, also sourced from GBIF.
 
 This is only the beginning. Want to make an app for French butterflies, no problem!
 
 ## Changing the taxanomic group
 
-The taxaonomy the app is focussed is set in the internal script `getGBIFdata.r` line 8. Want to search for a different class? Look up the class key on GBIF and replace it here. Want to search a family or order instead, there are arguments for them too, just have a look at (`?occ_search`)
+The taxaonomy the app is focussed on is set in the internal script `getGBIFdata.r` line 8. Want to search for a different class? Look up the class key on GBIF and replace it here. Want to search a family or order instead, there are arguments for them too, just have a look at `?occ_search` in the R console (its a function from `rgbif`).
 
 ## Changing the radius
 
