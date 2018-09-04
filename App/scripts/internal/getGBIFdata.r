@@ -15,6 +15,10 @@ getGBIFdata <- function(WKT, year, progress, max = 10000){
   if(N!=0){
     for(i in 1:(floor(N/200))){
       for(mon_i in c(mon -1, mon, mon + 1)){
+        
+        if(mon_i < 1) mon_i <- mon_i + 12
+        if(mon_i > 12) mon_i <- mon_i - 12
+        
         occ_temp <- occ_search(hasCoordinate = TRUE,
                                geometry = WKT,
                                year = year,
