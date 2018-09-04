@@ -1,5 +1,9 @@
 # marty
+
 Making citizen science data work for citizen scientists
+
+# [To try out the app click this link while on your smartphone](https://tomaugust.shinyapps.io/marty/)
+
 
 ![appScreenshots](https://github.com/AugustT/marty/raw/master/App/screenshots.jpg "App screenshots")
 
