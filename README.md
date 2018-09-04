@@ -8,7 +8,7 @@ Making citizen science data work for citizen scientists
 ![appScreenshots](https://github.com/AugustT/marty/raw/master/App/screenshots.jpg "App screenshots")
 
 
-This R-shiny web app was designed for the 2018 Ebbe Nielsen prize by Tom August. Copying and reuse of the code is strongly encouraged.
+This R-shiny web app was designed for the 2018 Ebbe Nielsen Challenge by Tom August. Copying and reuse of the code is strongly encouraged.
 
 [Watch a video introduction here](https://youtu.be/-MPH-ETD-aM)
 
